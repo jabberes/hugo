@@ -1,0 +1,17 @@
+<div class="widget-recent widget">
+	<h4 class="widget__title">Jabber/XMPP</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+                    {{- range site.Menus.jabber }}
+		      <li class="widget__item"><a class="widget__link" href="{{ .URL }}">
+                        {{ .Name }}
+                        {{- with .Page }}
+                          {{- with .Params.version -}}
+                            ({{ . }})
+                          {{- end }}
+                        {{- end }}
+                          </a></li>
+                    {{- end }}
+		</ul>
+	</div>
+</div>

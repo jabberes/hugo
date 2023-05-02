@@ -1,0 +1,33 @@
+.logo__text {
+	text-transform: none;
+}
+.menu__btn-title {
+	text-transform: none;
+}
+.menu__link {
+	text-transform: none;
+}
+.tags__item {
+	text-transform: none;
+}
+
+.toc__title {
+	text-transform: none;
+}
+
+.pager__subtitle {
+	text-transform: none;
+}
+
+input[type=submit],
+input[type=reset] {
+	text-transform: none;
+}
+
+.widget__title {
+	text-transform: none;
+}
+
+.widget-taglist__link {
+	text-transform: none;
+}

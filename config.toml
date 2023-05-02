@@ -1,0 +1,69 @@
+baseurl = "/"
+title = "JabberES.org"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+enableGitInfo = true
+
+#languageCode = "es-es"
+defaultContentLanguage = 'es'
+[languages]
+  [languages.en]
+    weight = 2
+  [languages.es]
+    weight = 1
+    #[languages.es.params]
+    #  [languages.es.params.navigation]
+    #    help = 'Ayuda ES'
+#[params]
+#  [params.navigation]
+#    help = 'Help'
+
+#[Author]
+#  name = "John Doe"
+#  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+#  avatar = "img/avatar.png"
+
+[Params]
+  description = "mensajería instantánea libre" # Description of your site
+  readmore = true # Show "Read more" button in list if true
+  authorbox = false
+  toc = true
+  pager = false
+  post_meta = ["author", "date", "categories", "translations"]
+  mainSections = ["noticias"]
+  #dateFormat = "2006-01-02"
+  dateFormat = "2 January 2006"
+  customCSS = ["css/jabberes.css"]
+  showRelatedPosts = true
+  Lastmod = true
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+[Params.logo]
+  image = "img/jabberes-bulb.png"
+  title = "JabberES.org"
+  subtitle = "mensajería instantánea libre"
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  #widgets = ["jabber", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["jabber", "categories", "taglist", "languages"]
+
+[Params.widgets]
+  recent_num = 5
+  tags_counter = false
+
+#[menu]
+#[[menu.footer]]
+#  name = 'Terms'
+#  pageRef = '/terms'
+#  weight = 10
+
+#[frontmatter]
+  #date = [':git']
+  #date = [':fileModTime']
+
